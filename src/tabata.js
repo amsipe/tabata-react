@@ -65,7 +65,7 @@ class Tabata extends Component {
                 restTimer: restTick
             })
         }else if (setTick > 0){
-            console.log(this);
+
             setTick--;
             this.setState({
                 sets: setTick,
@@ -79,7 +79,7 @@ class Tabata extends Component {
         }
     }
     render() {
-        console.log(this);
+
         var {sets, interval, restTimer} = this.state;
       return (
         <div>
